@@ -395,7 +395,7 @@
 
       <p class="carta-pregunta">
         ¿Quieres ir por un <span class="acento">frappé</span><br>
-        el jueves cuando salgamos?
+        el miercoles cuando salgamos?
       </p>
 
       <p class="carta-post">Prometo buena compañía.</p>
@@ -570,7 +570,7 @@ async function sendNotification(retries = 3){
     try {
       const res = await fetch(ntfyUrl, {
         method: 'POST',
-        body: 'Ximena aceptó ir por un frappé el jueves cuando salgan.',
+        body: 'Ximena aceptó ir por un frappé el miercoles cuando salgan.',
         headers: {
           'Content-Type': 'text/plain; charset=utf-8',
           'Title': 'Ximena aceptó',
